@@ -5,13 +5,14 @@ Validating MetaWeather APIs with RESTAssured and TestNG. This is created as part
 Java SDK 8 and above
 
 ### Build and running the test
-Navigate to the directory and execute the below command in the command prompt
+1. Clone this repository
+2. Navigate to the directory and execute the below command in the command prompt
 ```
 gradlew clean build
 ```
 
-### Run test only
-Navigate to the directory and execute the below command in the command prompt
+#### Run test only
+Execute below command when only test needs to execute
 ```
 gradlew cleanTest test
 ```
@@ -28,7 +29,7 @@ Location value is parameterized in TestNG xml, which is _testing.xml_. A sample 
 2. _Stretch Feature - A Customer has reported that they have already found a bug within the API but are unwilling to share the details.  Build a feature test to expose the issue_
 
 API Harness developed to identify the unknown issue, Location and date are parameterized in _.\src\test\resources\api_feeds.csv_. A sample screenshot of the generated result.
-![image](https://user-images.githubusercontent.com/37209530/101236443-36d9d680-36f7-11eb-9ac9-3bf7bdefbfb3.png)
+![image](https://user-images.githubusercontent.com/37209530/101236704-5eca3980-36f9-11eb-9f8c-47892d058ba2.png)
 
 ### Author
 * **Vishnu A R** 
