@@ -20,7 +20,7 @@ gradlew cleanTest test
 ### Test results 
 Test results will be generated in the following location _.\build\reports\tests\test\index.html_
 
-### Tests validated in suite
+### Tests validated in the suite
 1. _As a MetaWeather API client, I want to retrieve "tomorrows" weather for "Nottingham"_
 
 Location value is parameterized in TestNG xml, which is _testing.xml_. A sample screenshot of the generated result.
